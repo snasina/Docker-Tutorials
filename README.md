@@ -63,7 +63,9 @@ sudo systemctl status docker
 ```
 
 11.Uninstalling Docker
+
 Before uninstalling Docker remove all containers, images, volumes, and networks.
+
 You can uninstall Docker as any other package installed with apt:
 
 ```
