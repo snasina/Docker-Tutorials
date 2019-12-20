@@ -37,8 +37,10 @@ As usual, it’s a good idea to update the local database of software to make su
 
 7.Update your package and install Docker CE
 
-```sudo apt update
-sudo apt install docker-ce```
+```
+sudo apt update
+sudo apt install docker-ce
+```
 
 8.Add your limited Linux user account to the docker group(To run Docker commands without sudo):
 
@@ -47,20 +49,26 @@ sudo apt install docker-ce```
 9.Check Docker Version
 To verify the installed Docker version number, enter:
 
-```docker --version
-docker-compose --version```
+```
+docker --version
+docker-compose --version
+```
 
 10.Start and Automate Docker
 
-```sudo systemctl start docker
+```
+sudo systemctl start docker
 sudo systemctl enable docker
-sudo systemctl status docker```
+sudo systemctl status docker
+```
 
 11.Uninstalling Docker
 Before uninstalling Docker remove all containers, images, volumes, and networks.
 You can uninstall Docker as any other package installed with apt:
 
-```sudo apt purge docker-ce
-sudo apt autoremove```
+```
+sudo apt purge docker-ce
+sudo apt autoremove
+```
 
 Will see how to use docker in our next tutorial...Stay tuned.....
