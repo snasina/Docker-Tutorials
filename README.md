@@ -13,10 +13,12 @@ Docker software repositories (optional)
 
 1.Update Software Repositories
 As usual, it’s a good idea to update the local database of software to make sure you’ve got access to the latest revisions.
+
 ```sudo apt-get update
 ```
 
 2.Remove any older installations of Docker that may be on your system
+
 ```sudo apt remove docker docker-engine docker.io
 ```
 
