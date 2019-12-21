@@ -70,5 +70,7 @@ You can uninstall Docker as any other package installed with apt:
 sudo apt purge docker-ce
 sudo apt autoremove
 ```
+# image
+![docker](https://user-images.githubusercontent.com/24427856/71299521-b3bf5380-23b3-11ea-9874-08157123687a.PNG)
 
 Will see how to use docker in our next tutorial...Stay tuned.....
