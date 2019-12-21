@@ -1,4 +1,5 @@
 # How-to-Install-Docker-on-Ubuntu-18.04
+![docker](https://user-images.githubusercontent.com/24427856/71299521-b3bf5380-23b3-11ea-9874-08157123687a.PNG)
 Docker is a platform which packages an application and all its dependencies together in the form of containers. This containerization aspect of Docker ensures that the application works in any environment.
 Docker Compose is a tool for defining and running multi-container Docker applications. It allows users to launch, execute, communicate, and close containers with a single coordinated command.
 
@@ -70,7 +71,5 @@ You can uninstall Docker as any other package installed with apt:
 sudo apt purge docker-ce
 sudo apt autoremove
 ```
-# image
-![docker](https://user-images.githubusercontent.com/24427856/71299521-b3bf5380-23b3-11ea-9874-08157123687a.PNG)
 
 Will see how to use docker in our next tutorial...Stay tuned.....
